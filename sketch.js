@@ -2,7 +2,7 @@ function setup(){
   createCanvas(windowWidth, windowHeight);
   background(255,0,0);
   loadImage('pic.jpg', img => {
-    image(img, 10,10);
+    image(img, 0, 0);
   });
   var button;
    button = createButton('red');
